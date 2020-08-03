@@ -1,7 +1,7 @@
-/**
- * @param {number[]} nums
- * @return {number}
- */
+// /**
+//  * @param {number[]} nums
+//  * @return {number}
+//  */ FAILING
 var longestConsecutive = function(nums) {
   if (nums.length < 1) return 0;
   const sorted = nums.sort();
