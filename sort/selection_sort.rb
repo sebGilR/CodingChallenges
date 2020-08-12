@@ -8,7 +8,7 @@ def selection_sort(arr)
     end
   end
 
-  return arr
+  arr
 end
 
 p selection_sort([4, 3, 5, 1, 0, 7, 10, 2])
