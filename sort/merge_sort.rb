@@ -1,3 +1,4 @@
+# O(nlogn)
 def merge_sort(arr)
   return arr if arr.length == 1
   
